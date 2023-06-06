@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+#sayfa{
+width: 400px;
+border-style: solid;
+border-width: 1px;
+min-height: 600px;
+margin: auto;
+ }
+ 
+
+
+
+ /*anamenü*/
+
+
+ #anamenu{
+    width: 398px;
+border-style: dotted;
+border-width: 1px;
+height: 50px;
+margin: auto;
+background-color:wheat;
+
+ }
+
+ #anamenu ul{
+    list-style-type: none;
+
+ }
+ #anamenu ul li {
+    width: 80px;                
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: seashell;
+    float: left;
+    padding: 5px;
+     margin-left: 2px;
+     position: relative;
+     top: 8px;
+     text-align: center;
+     } 
+
+     #anamenu ul a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        color: black;
+
+     }
+
+     #ananmenu ul a:link{
+        color: blue;
+     }
+
+     #anamenu ul a :visited {
+        color: red;
+
+
+     }
+     #anamenu ul a:active{
+        color: whitesmoke;
+     }
+
+
+
+ #banner{
+    width: 398px;
+border-style: solid;
+border-width: 1px;
+height: 100px;
+margin: auto;
+background-color: white;
+
+ }
+ #logo{
+    width: 100px;
+border-style: none;
+border-width: 1px;
+height: 80px;
+background-color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+
+
+ }
+ #sosyal{
+    width: 150px;
+border-style: none;
+border-width: 1px;
+height: 40px;
+background-color: white;
+float: right;
+position: relative;
+top: 40px;
+right: 10px;
+ }
+ #ikon{
+    float: right;
+    margin-left: 15px;
+    width: 35px;
+
+ }
+ #ferhat{
+    width: 60px;
+    
+
+
+ }
+
+
+ /*İçerk ve Yan menü*/
+ #içerik{
+ width: 300px;
+min-height:400px;
+border-style: solid;
+border-width: 1px;
+background-color:bisque;
+float: left;
+}
+#yanmenu{
+
+width: 95px;
+height: 400px;
+border-style: dotted;
+border-width: 1px;
+background-color:floralwhite;
+float: right;
+
+}
+.resim{
+    float: left;
+    width: 100px;
+    margin: 10px;
+
+}
+.metin{
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    
+
+}
+/*footer*/
+
+#altmenu{
+    width: 398px;
+height:40px;
+border-style: solid;
+border-width: 1px;
+background-color:wheat;
+float: left;
+
+}
+
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+}
+
+
